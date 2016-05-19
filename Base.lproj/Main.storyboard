@@ -108,24 +108,9 @@
                                     <action selector="jinmuteam:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ld9-Qr-XWV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tki-5v-rID">
-                                <rect key="frame" x="12" y="280" width="60" height="30"/>
-                                <state key="normal" title="犯规规则"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJM-oO-naw">
                                 <rect key="frame" x="27" y="474" width="31" height="30"/>
                                 <state key="normal" title="stop"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fU6-kY-b5x">
-                                <rect key="frame" x="41" y="318" width="41" height="30"/>
-                                <state key="normal" title="1分球 "/>
-                                <connections>
-                                    <action selector="lufuiteam:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VV1-sl-4at"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfy-Px-17I">
-                                <rect key="frame" x="216" y="318" width="41" height="30"/>
-                                <state key="normal" title="1分球 "/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
