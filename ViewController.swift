@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     var db:SQLiteDB!
     var operandlufui:String = ""//缓存数据
-    var operangjinmu:String = ""
+    var operandjinmu:String = ""
     var huancunlufei = 0
     var huancunjinmu = 0
     
@@ -33,9 +33,21 @@ class ViewController: UIViewController {
     @IBAction func jinmuteam(sender: AnyObject) {
         let value = sender.currentTitle
         huancunjinmu = huancunjinmu+Int(value!!)!
-        operangjinmu = String(huancunjinmu)
-        jinmuresult.text = operangjinmu
+        operandjinmu = String(huancunjinmu)
+        jinmuresult.text = operandjinmu
     }
+    
+    @IBAction func delet(sender: AnyObject) {
+        operandlufui = " "
+        operandjinmu = " "
+        self.lufeiresult.text = " 0 "
+        self.jinmuresult.text = " 0 "
+        
+        
+    }
+ 
+   
+    
    
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,6 +65,9 @@ class ViewController: UIViewController {
         saveUser()
     }
     
+    
+    
+
     //从SQLite加载数据
     func initUser() {
         let data = db.query("select * from t_user")
