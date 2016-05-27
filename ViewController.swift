@@ -17,17 +17,10 @@ class ViewController: UIViewController {
     var huancunlufei = 0
     var huancunjinmu = 0
     
-   
-   
     var jishiqi:NSTimer!//定时器
     var daojishi1 = 0
-    var daojishi2 = 0
-    var miao:Int = 600
+    var miao:Int = 600//10分钟＝600秒
    
-    
-    
-   
-    
     
     @IBOutlet weak var end: UIButton!
     @IBOutlet weak var time: UILabel!
@@ -57,10 +50,12 @@ class ViewController: UIViewController {
     
     
     @IBAction func start(sender: UIButton) {
-        if daojishi1 == 0
+        if daojishi1 == 0//倒计时开始
         {
            jishiqi = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "tickDown", userInfo: nil, repeats: true)
-            daojishi1 = 1
+            daojishi1 = 1//停止时间
+           
+            
             
         }
         
@@ -71,8 +66,8 @@ class ViewController: UIViewController {
     @IBAction func end(sender: UIButton) {
        if daojishi1 == 1{
             jishiqi.invalidate()//停止记时
-            
-            daojishi1=0
+         daojishi1 = 0
+        
         }
         
     }

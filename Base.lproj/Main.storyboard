@@ -90,13 +90,6 @@
                                     <action selector="lufuiteam:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hRv-Dr-9LM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhh-of-PQh">
-                                <rect key="frame" x="253" y="459" width="32" height="30"/>
-                                <state key="normal" title="save"/>
-                                <connections>
-                                    <action selector="saveClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bPw-po-r2F"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bMY-zX-d9c">
                                 <rect key="frame" x="231" y="226" width="30" height="30"/>
                                 <state key="normal" title="3"/>
@@ -123,14 +116,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CI1-LH-9J2">
-                                <rect key="frame" x="12" y="361" width="30" height="30"/>
+                                <rect key="frame" x="253" y="361" width="30" height="30"/>
                                 <state key="normal" title="犯规"/>
                                 <connections>
                                     <segue destination="Ylv-s4-iBj" kind="modal" id="yrJ-68-USl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0T-Qu-98T">
-                                <rect key="frame" x="20" y="459" width="43" height="30"/>
+                                <rect key="frame" x="33" y="485" width="43" height="30"/>
                                 <state key="normal" title="delete"/>
                                 <connections>
                                     <action selector="delet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TSF-Ga-R6K"/>
@@ -139,27 +132,41 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WA2-eP-raL">
                                 <rect key="frame" x="173" y="317" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8l-n9-Wsi">
-                                <rect key="frame" x="130" y="317" width="44" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
+                                <rect key="frame" x="125" y="300" width="83" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="1" green="0.10402056076752531" blue="0.20957466422331694" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.81318985860000004" green="0.29933831239999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcM-oG-Ltf">
+                                <rect key="frame" x="0.0" y="447" width="135" height="30"/>
+                                <state key="normal" title="路飞team member"/>
+                                <connections>
+                                    <segue destination="TpV-G1-qyx" kind="modal" id="Lqn-m1-vI9"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgq-Iw-AYK">
-                                <rect key="frame" x="189" y="508" width="126" height="30"/>
+                                <rect key="frame" x="173" y="447" width="126" height="30"/>
                                 <state key="normal" title="金木team member"/>
                                 <connections>
                                     <segue destination="e4e-eM-xhh" kind="modal" id="0s7-OV-fQ1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcM-oG-Ltf">
-                                <rect key="frame" x="-3" y="508" width="135" height="30"/>
-                                <state key="normal" title="路飞team member"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhh-of-PQh">
+                                <rect key="frame" x="237" y="489" width="32" height="30"/>
+                                <state key="normal" title="save"/>
                                 <connections>
-                                    <segue destination="TpV-G1-qyx" kind="modal" id="Lqn-m1-vI9"/>
+                                    <action selector="saveClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bPw-po-r2F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rD-7x-DFf">
+                                <rect key="frame" x="105" y="518" width="87" height="30"/>
+                                <state key="normal" title="menber 简介"/>
+                                <connections>
+                                    <segue destination="joc-FR-WVI" kind="modal" id="Oc0-or-xrm"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -195,7 +202,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="成员" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cH-JC-m3D">
                                 <rect key="frame" x="134" y="28" width="34" height="27"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQM-27-zda">
@@ -252,7 +259,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="成员" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8Q-4D-oy3">
                                 <rect key="frame" x="132" y="20" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LMk-h4-MvK">
@@ -264,7 +271,7 @@
                                 <state key="normal" title="队长"/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="金木.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rWm-k1-0fm">
-                                <rect key="frame" x="66" y="91" width="240" height="128"/>
+                                <rect key="frame" x="80" y="71" width="240" height="128"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBr-t9-9f9">
                                 <rect key="frame" x="252" y="33" width="34" height="30"/>
@@ -273,13 +280,71 @@
                                     <segue destination="BYZ-38-t0r" kind="modal" id="svu-yG-Ymu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ql7-gX-RwC">
+                                <rect key="frame" x="28" y="236" width="30" height="30"/>
+                                <state key="normal" title="队员"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="魔猿古间.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="o5q-S6-h1U">
+                                <rect key="frame" x="9" y="364" width="143" height="89"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="英 (1).jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Id0-xh-6lQ">
+                                <rect key="frame" x="194" y="346" width="150" height="126"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="雾岛绫人.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LGm-fS-byt">
+                                <rect key="frame" x="40" y="490" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="亚门岗太郎.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9DU-Lf-zG7">
+                                <rect key="frame" x="73" y="213" width="207" height="143"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nS2-BK-Njv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="242" y="955"/>
+            <point key="canvasLocation" x="93" y="1630"/>
+        </scene>
+        <!--Member-->
+        <scene sceneID="cFd-mp-Ee8">
+            <objects>
+                <viewController id="joc-FR-WVI" customClass="member" customModule="jifenqi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6YO-WM-Plj"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sff-H6-GSn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WYV-iP-pe9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="简介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AXI-bk-PMB">
+                                <rect key="frame" x="143" y="52" width="34" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vbd-tO-5jN">
+                                <rect key="frame" x="250" y="512" width="34" height="30"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="8tj-Q1-dhi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="member 简介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9y-0Q-7nQ">
+                                <rect key="frame" x="11" y="20" width="298" height="512"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="简介" destination="e9y-0Q-7nQ" id="ybh-za-h60"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RGp-Gg-HeG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="366" y="1033"/>
         </scene>
         <!--Fangui-->
         <scene sceneID="hZL-ib-rPm">
@@ -294,7 +359,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="金木team" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I97-VN-LSw">
-                                <rect key="frame" x="211" y="109" width="81" height="21"/>
+                                <rect key="frame" x="205" y="109" width="81" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -306,18 +371,18 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="次数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDQ-u0-fPJ">
-                                <rect key="frame" x="14" y="240" width="34" height="21"/>
+                                <rect key="frame" x="7" y="217" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cEX-cC-zWU">
-                                <rect key="frame" x="56" y="236" width="97" height="30"/>
+                                <rect key="frame" x="50" y="217" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0LZ-wm-kxi">
-                                <rect key="frame" x="203" y="236" width="97" height="30"/>
+                                <rect key="frame" x="195" y="217" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -326,13 +391,6 @@
                                 <state key="normal" title="1"/>
                                 <connections>
                                     <action selector="lfangui:" destination="Ylv-s4-iBj" eventType="touchUpInside" id="fFi-BM-AjJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dm3-XO-2f1">
-                                <rect key="frame" x="228" y="170" width="30" height="30"/>
-                                <state key="normal" title="1"/>
-                                <connections>
-                                    <action selector="jfangui:" destination="Ylv-s4-iBj" eventType="touchUpInside" id="xKk-pF-mWQ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="路飞team " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZ5-DY-gym">
@@ -346,6 +404,13 @@
                                 <state key="normal" title="back"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="modal" id="rkg-js-0I9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dm3-XO-2f1">
+                                <rect key="frame" x="228" y="170" width="30" height="30"/>
+                                <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="jfangui:" destination="Ylv-s4-iBj" eventType="touchUpInside" id="xKk-pF-mWQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -400,11 +465,15 @@
     <resources>
         <image name="lu fei.jpg" width="440" height="528"/>
         <image name="乌索普.jpg" width="826" height="547"/>
+        <image name="亚门岗太郎.jpg" width="225" height="350"/>
         <image name="布鲁克.jpg" width="700" height="787"/>
         <image name="索隆.jpg" width="537" height="762"/>
         <image name="罗.jpg" width="700" height="1167"/>
+        <image name="英 (1).jpg" width="332" height="315"/>
         <image name="路飞.jpg" width="1366" height="768"/>
         <image name="金木.jpg" width="700" height="525"/>
+        <image name="雾岛绫人.jpg" width="700" height="318"/>
+        <image name="魔猿古间.jpg" width="186" height="220"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="svu-yG-Ymu"/>
