@@ -54,9 +54,6 @@ class ViewController: UIViewController {
         {
            jishiqi = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "tickDown", userInfo: nil, repeats: true)
             daojishi1 = 1//停止时间
-           
-            
-            
         }
         
     }
